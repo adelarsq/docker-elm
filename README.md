@@ -73,7 +73,7 @@ $ docker-compose down && docker-compose up --detach --build elm
 ### :robot: Run any Elm command from the Elm command line interface
 
 ```console
-$ doker-compose run --rm elm --version
+$ docker-compose run --rm elm --version
 ```
 
 Where `--version` is the argument you want to pass to the `elm` command line
